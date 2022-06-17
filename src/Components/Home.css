@@ -1,308 +1,306 @@
-script+iframe{
-    display: none !important;
+script + iframe {
+  display: none !important;
 }
-html{
-    scroll-behavior:smooth;
+html {
+  scroll-behavior: smooth;
 }
-.navbar-brand{
-    width: 100px;
-    max-width: 100%;
+.navbar-brand {
+  width: 100px;
+  max-width: 100%;
 }
 @font-face {
-    font-family: 'Metropolis-ExtraBold';
-    src: url('../Fonts/Metropolis-ExtraBold.otf');
-  }
-  
-  div {
-    font-family: 'Metropolis-ExtraBold';
-  }
+  font-family: "Metropolis-ExtraBold";
+  src: url("../Fonts/Metropolis-ExtraBold.otf");
+}
 
-  @font-face {
-    font-family: 'Metropolis-Bold';
-    src: url('../Fonts/Metropolis-Bold.otf');
-  }
-  
-  div {
-    font-family: 'Metropolis-Bold';
-  }
+div {
+  font-family: "Metropolis-ExtraBold";
+}
 
-  @font-face {
-    font-family: 'Metropolis-Medium';
-    src: url('../Fonts/Metropolis-Medium.otf');
-  }
-  
-  div {
-    font-family: 'Metropolis-Medium';
-  }
-  @font-face {
-    font-family: 'Metropolis-Regular';
-    src: url('../Fonts/Metropolis-Regular.otf');
-  }
-  
-  div {
-    font-family: 'Metropolis-Regular';
-  }
-  
-  .coll{
-     font-family: 'Metropolis-Bold';
-     color: white;
-     font-size: 80px; 
-     
-  }
-  .AAA{
-      background-image: url('../Images/bg1.png');
-      background-position: center ;
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-color: black;
-      padding-bottom: 100px;
-      
-      
-  }
-  .val{
-      font-family: 'Metropolis-Regular';
-      color: white;
-      font-size: 20px;
-      font-weight: 100;
-  }
-  .valll{
-    font-family: 'Metropolis-Regular';
-    color: white;
-    font-size: 20px;
-    font-weight: 100;
-    padding-top: 70px;
-  }
-  .vall{
-    font-family: 'Metropolis-Regular';
-    color: white;
-    font-size: 22px;
-    font-weight: 100;
+@font-face {
+  font-family: "Metropolis-Bold";
+  src: url("../Fonts/Metropolis-Bold.otf");
 }
-  .acc{
-      padding-top: 120px;
-  }
- 
 
-  .whi{
-      background-color: #E10013;
-      color: white;
-      font-size: 18px;
-      padding-top: 25px;
-      padding-bottom: 25px;
-      padding-left: 42px;
-      padding-right: 50px;
-      border: #E10013;
-      border-radius: 100px;
-  }
-  
-  .whii{
-    background-color: #E10013;
-    color: white;
-    font-size: 18px;
-      cursor: pointer;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 50px;
-    padding-right: 50px;
-    border: #E10013;
-    border-radius: 100px;
+div {
+  font-family: "Metropolis-Bold";
 }
-  .whi1{
-    background-color:transparent ;
-    color: white;
-    font-size: 18px;
-      cursor: pointer;
-      padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 55px;
-    padding-right: 55px;
-    border: solid 3px;
-    border-color: #E10013;
 
-    
-    border-radius: 100px;
+@font-face {
+  font-family: "Metropolis-Medium";
+  src: url("../Fonts/Metropolis-Medium.otf");
 }
-.whi1:hover{
-    background-color:#E10013 ;
-    color: white;
-    border-color: #E10013;
-}
-.whi2{
-    background-color: #E10013;
-    color: white;
-    font-size: 18px;
-      cursor: pointer;
-      padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 50px;
-    padding-right: 50px;
-    border: #E10013;
-    border-radius: 100px;
-}
-.intro{
-    
-    font-family: 'Metropolis-Regular';
-    font-size: 40px;
-    font-weight: 100;
-    color:white;
-}
-.BBB{
-    background-image: url('../Images/Line2.png');
-    background-color: black;
-    background-position: left top;
-    background-repeat: no-repeat;
-}
-.CCC{
-    background-image: url('../Images/Line1.png');
 
-    background-position: right top;
-    background-repeat: no-repeat;
+div {
+  font-family: "Metropolis-Medium";
 }
-.FFF{
-    background-image: url('../Images/Line1.png');
-    background-color: black;
+@font-face {
+  font-family: "Metropolis-Regular";
+  src: url("../Fonts/Metropolis-Regular.otf");
+}
 
-    background-position: right top;
-    background-repeat: no-repeat;
+div {
+  font-family: "Metropolis-Regular";
 }
-.main{
-    background-image: url('../Images/bg2.png');
-    background-position: center ;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: black;
-    padding-bottom: 90px;
+
+.coll {
+  font-family: "Metropolis-Bold";
+  color: white;
+  font-size: 80px;
 }
-.csd{
-    padding-top: 90px;
-    padding-bottom: 100px;
+.AAA {
+  background-image: url("../Images/bg1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+  padding-bottom: 100px;
 }
-.cvc{
-    padding-bottom: 90px !important;
+.val {
+  font-family: "Metropolis-Regular";
+  color: white;
+  font-size: 20px;
+  font-weight: 100;
 }
-.tyt{
-    background-image: url('../Images/bg3.png');
-    background-position: center ;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: black;
-    padding-bottom: 90px;
+.valll {
+  font-family: "Metropolis-Regular";
+  color: white;
+  font-size: 20px;
+  font-weight: 100;
+  padding-top: 70px;
 }
-.DDD{
-    background-image: url('../Images/Line2.png');
-  
-    background-repeat: no-repeat;
-    background-position: left top;
+.vall {
+  font-family: "Metropolis-Regular";
+  color: white;
+  font-size: 22px;
+  font-weight: 100;
 }
-.gft{
-    padding-top: 90px;
+.acc {
+  padding-top: 120px;
 }
-.mkl{
-    padding-top: 100px;
+
+.whi {
+  background-color: #e10013;
+  color: white;
+  font-size: 18px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 42px;
+  padding-right: 50px;
+  border: #e10013;
+  border-radius: 100px;
 }
-.hg{
-    color: #E10013;
-    font-family: 'Metropolis-Regular';
-    font-size: 30px;
-    font-weight: 100;
+
+.whii {
+  background-color: #e10013;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border: #e10013;
+  border-radius: 100px;
 }
-.pro{
-    padding-top: 70px;
+.whi1 {
+  background-color: transparent;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 55px;
+  padding-right: 55px;
+  border: solid 3px;
+  border-color: #e10013;
+
+  border-radius: 100px;
 }
-.erw{
-    padding-top: 90px;
-    padding-bottom: 90px;
+.whi1:hover {
+  background-color: #e10013;
+  color: white;
+  border-color: #e10013;
 }
-.fyt{
-    padding-top: 70px;
+.whi2 {
+  background-color: #e10013;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border: #e10013;
+  border-radius: 100px;
 }
-.form-control{
-    padding-top: 15px;
-    padding-bottom: 15px;
-    border-radius: 100px;
-    font-size: 20px;
-    font-family: 'Metropolis-Regular';
-    
-   
+.intro {
+  font-family: "Metropolis-Regular";
+  font-size: 40px;
+  font-weight: 100;
+  color: white;
 }
-.join{
-    padding-top: 90px;
+.BBB {
+  background-image: url("../Images/Line2.png");
+  background-color: black;
+  background-position: left top;
+  background-repeat: no-repeat;
 }
-.footer{
-    background-color: black;
+.CCC {
+  background-image: url("../Images/Line1.png");
+
+  background-position: right top;
+  background-repeat: no-repeat;
 }
-.pri{
-    color: white;
-    font-family: 'Metropolis-Regular';
-    font-size: 16px;
+.FFF {
+  background-image: url("../Images/Line1.png");
+  background-color: black;
+
+  background-position: right top;
+  background-repeat: no-repeat;
 }
-.gds{
-    font-size: 25px;
-    color:white;
+.main {
+  background-image: url("../Images/bg2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+  padding-bottom: 90px;
 }
-.dfa{
-    padding-top: 140px;
+.csd {
+  padding-top: 90px;
+  padding-bottom: 100px;
 }
-.nav-link{
-    font-family: 'Metropolis-Regular';
-    font-size: 16px;
-    color:white !important;
+.cvc {
+  padding-bottom: 90px !important;
 }
-.nav-link:hover{
-    color: #E10013 !important;
-    text-decoration: underline;
+.tyt {
+  background-image: url("../Images/bg3.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+  padding-bottom: 90px;
+}
+.DDD {
+  background-image: url("../Images/Line2.png");
+
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+.gft {
+  padding-top: 90px;
+}
+.mkl {
+  padding-top: 100px;
+}
+.hg {
+  color: #e10013;
+  font-family: "Metropolis-Regular";
+  font-size: 30px;
+  font-weight: 100;
+}
+.pro {
+  padding-top: 70px;
+}
+.erw {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+.fyt {
+  padding-top: 70px;
+}
+.form-control {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 100px;
+  font-size: 20px;
+  font-family: "Metropolis-Regular";
+}
+.join {
+  padding-top: 90px;
+}
+.footer {
+  background-color: black;
+}
+.pri {
+  color: white;
+  font-family: "Metropolis-Regular";
+  font-size: 16px;
+}
+.gds {
+  font-size: 25px;
+  color: white;
+}
+.dfa {
+  padding-top: 140px;
+}
+.nav-link {
+  font-family: "Metropolis-Regular";
+  font-size: 16px;
+  color: white !important;
+}
+.nav-link:hover {
+  color: #e10013 !important;
+  text-decoration: underline;
 }
 @media only screen and (max-width: 600px) {
-   .coll{
-       font-size: 50px;
-   }
+  .coll {
+    font-size: 50px;
   }
-  @media only screen and (max-width: 600px) {
-    .acc{
-        padding-top: 100px;
-    }
-   }
-   @media only screen and (max-width: 600px) {
-    .val{
-        font-size: 16px;
-    }
-   }
-   @media only screen and (max-width: 600px) {
-    .mob{
-        padding-top: 20px;
-    }
-   }
-   @media only screen and (max-width: 600px) {
-    .alie{
-        padding-top: 40px;
-    }
-   }
-   @media only screen and (max-width: 600px) {
-    .cvc{
-        padding-top: 90px;
-    }
-   }
-   @media only screen and (max-width: 600px) {
-    .dao{
-        padding-top: 120px;
-    }
-   }
-   @media only screen and (max-width: 600px) {
-    .hg{
-       font-size: 22px;
-    }
-   }
-   @media only screen and (max-width: 600px) {
-    .vall{
-       font-size: 16px;
-    }
-   }
-   @media only screen and (max-width: 600px) {
-    .ftr{
-       padding-top: 90px;
-    }
-   }
-  
-  .supplytext {
-      color: white;
+}
+@media only screen and (max-width: 600px) {
+  .acc {
+    padding-top: 100px;
   }
+}
+@media only screen and (max-width: 600px) {
+  .val {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .mob {
+    padding-top: 20px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .alie {
+    padding-top: 40px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .cvc {
+    padding-top: 90px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .dao {
+    padding-top: 120px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .hg {
+    font-size: 22px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .vall {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .ftr {
+    padding-top: 90px;
+  }
+}
+
+.supplytext {
+  color: white;
+}
+.connectbutton {
+  width: 100%;
+  max-width: 200px;
+  margin: auto;
+  display: block;
+}

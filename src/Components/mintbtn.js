@@ -55,7 +55,7 @@ function Mintbtn() {
 
     function handleEthereum() {
       const { ethereum } = window;
-      if (ethereum && ethereum.isMetaMask) {
+      if (ethereum) {
         console.log("Ethereum successfully detected!");
         // setProvider(true);
       } else {
@@ -65,7 +65,8 @@ function Mintbtn() {
     }
   }, []);
 
-  async function loadWeb3() {
+  const loadWeb3 = async () => {
+    // async function loadWeb3() {
     if (await detectEthereumProvider()) {
       window.web3 = new Web3(window.ethereum);
       await window.ethereum.enable();
@@ -119,7 +120,7 @@ function Mintbtn() {
         );
       }
     }
-  }
+  };
 
   async function connectWallet() {
     if (await detectEthereumProvider()) {
@@ -183,16 +184,16 @@ function Mintbtn() {
       {!errormsg ? (
         <div className="row align-items-center">
           {walletConnected == 0 ? (
-            <div className="col-6 mx-auto d-block">
-              <h1
+            <div className="col-12 mx-auto d-block">
+              <button
                 style={{ cursor: "pointer", fontSize: "20px" }}
                 onClick={() => {
                   connectWallet();
                 }}
-                className="text-white whi text-center  w-100"
+                className="text-white whi connectbutton text-center  w-100"
               >
                 Connect
-              </h1>
+              </button>
             </div>
           ) : (
             ""
@@ -224,14 +225,14 @@ function Mintbtn() {
                 </div>
               </div>
               <div className="col-sm-6 mx-auto pt-3 pt-sm-0">
-                <h4
+                <button
                   style={{ cursor: "pointer" }}
                   type="button"
-                  className="connectbtn whi text-white d-block text-center"
-                  onClick={() => loadWeb3()}
+                  className="connectbtn connectbutton whi text-white d-block text-center"
+                  onClick={loadWeb3}
                 >
                   Mint
-                </h4>
+                </button>
               </div>
             </>
           ) : (
